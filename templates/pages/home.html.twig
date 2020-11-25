@@ -5,7 +5,7 @@
 {% block body %}
     <img src={{ asset('/img/flag.png') }} alt="PACA_FLAG" class="mt-12rounded shadow-md h-40" >
     <h1 class="mt-5 text-3xl sm:text-5xl font-semibold text-red-500">Hello from Aix en Provence</h1>
-    <p class="text-lg text-grey-800">It's currently {{ 'now'|date('h:i') }}.</p>
+    <p class="text-lg text-grey-800">It's currently {{ 'now'|date('HH:mm') }}.</p>
 
 
 {% endblock %}
